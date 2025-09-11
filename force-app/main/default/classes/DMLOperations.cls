@@ -239,7 +239,6 @@ public with sharing class DMLOperations {
 	 */
 	public static void upsertAccountsWithContacts(List<Contact> contactsToUpsert) {
 		
-        List<String> acctNames = new List<String>();
         // Loop through each Contact
 
 		// Extract the Account Name from Contact's LastName
